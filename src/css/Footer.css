@@ -1,0 +1,15 @@
+.footer{
+    text-align: center;
+    padding: 5%;
+    background-color: #e64530;
+  }
+  
+  .icons{
+    width: 2rem;
+    padding: 1%;
+  }
+
+  .footer p{
+    color: black;
+    padding-left: 5%;
+  }

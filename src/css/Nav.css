@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    padding: 0% 5%;
+  }
+  
+  .categories{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+  }
+  
+  .categories p{
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+  }
+
+  h4{
+    font-size: 1.5rem;
+    margin-top: 1%;
+  }
+  
+  .categories p:hover{
+    color: gray;
+  }

@@ -1,0 +1,58 @@
+.item1{
+    color: white;
+    /* padding-right: ; */
+    width: 70%;
+}
+
+.item1 h1{
+  font-family: 'ubuntu';
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.item1 p{
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ff4c68;
+  padding: 10% 10%;
+}
+
+.my-image{
+  border-radius: 100%;
+  width: 20rem;
+}
+
+.interest{
+  padding: 5%;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+}
+
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15% 8% 15% 12%;
+}
+
+.skills h5{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.skills-sec{
+  width: 20%;
+  padding-right: 10rem;
+  text-align: center;
+}
+
+.logo-writing{
+  padding-top: 1.5rem;
+}

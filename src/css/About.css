@@ -1,0 +1,29 @@
+.place1{
+    grid-area: first;
+}
+
+.place2{
+    grid-area: photo;
+}
+
+.place3{
+    grid-area: second;
+}
+
+.place4{
+    grid-area: third;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: "first first photo photo photo"
+    "second third photo photo photo";
+    padding: 5rem;
+}
+li{
+    padding-bottom: 5%;
+}
+.photo{
+    width: 50rem;
+}
+
