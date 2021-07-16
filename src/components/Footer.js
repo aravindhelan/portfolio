@@ -1,18 +1,17 @@
 import React from "react";
 import "../css/Footer.css";
-import twitter from "../asserts/twitter.png"
-import insta from "../asserts/instagram.png"
-import linke from "../asserts/linkedin.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faLinkedin, faFacebook} from "@fortawesome/free-brands-svg-icons";
 
 
 
 function Footer() {
     return(
-      <div className="pro">
+      <div className="pro" id="Contact">
          <div className="footer">
-           <img src={insta} className="icons"></img>
-           <img src={twitter} className="icons"></img>
-           <img src={linke} className="icons"></img>
+           <FontAwesomeIcon icon={faFacebook} size="2x" className="icons" />
+           <FontAwesomeIcon icon={faTwitter} size="2x" className="icons" />
+           <FontAwesomeIcon icon={faLinkedin} size="2x" className="icons" />
            <p>© Copyright 2021 Aravindh</p>
          </div>
       </div> 

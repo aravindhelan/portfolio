@@ -29,25 +29,25 @@
   width: 20rem;
 }
 
-.interest{
+/* .interest{
   padding: 5%;
   text-align: center;
   background-color: tomato;
   color: white;
-}
+} */
 
-.skills{
+.goods{
   display: flex;
   flex-wrap: wrap;
   padding: 15% 8% 15% 12%;
 }
 
-.skills h5{
+.goods h5{
   font-size: 1.5rem;
   text-align: center;
 }
 
-.skills-sec{
+.goods-sec{
   width: 20%;
   padding-right: 10rem;
   text-align: center;
@@ -55,4 +55,118 @@
 
 .logo-writing{
   padding-top: 1.5rem;
+}
+
+/* .......About..... */
+.About {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ff4c68;
+  padding: 5rem 0rem 5rem 5rem ;
+  color: white;
+}
+
+.About h1{
+  font-family: "Montserrat-Black";
+}
+
+.myself{
+  padding-right: 5rem;
+}
+.myself p{
+  font-family: "ubuntu";
+}
+
+.About .bio-data{
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 3rem;
+}
+.place1  ul{
+  padding-left: 10%;
+}
+ .bio-data li{
+   padding-bottom: 2rem;
+ }
+
+.place2 ul {
+  padding-left: 7%; 
+  padding-bottom: 2rem;
+}
+
+.grid-container{
+  width: 50%;
+}
+
+.photo{
+  width: 40rem;
+  border-radius: 50px;
+  box-shadow: 1px 10px 40px maroon;
+}
+
+
+/* ........skills........ */
+.skills{
+  text-align: center;
+  padding: 5%;
+}
+
+
+.skill-logos{
+  width: 10rem;
+}
+
+.contain{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-box{
+  width: 30%;
+}
+
+.header{
+  padding-bottom: 3%;
+}
+
+
+
+
+
+@media(max-width:1350px){
+  .goods-sec{
+    padding-right: 5rem;
+  }
+  .goods{
+    padding-left: 10rem;
+  }
+  .grid-container{
+    width: auto;
+  }
+}
+
+@media (max-width:850px) {
+  .goods{
+    padding-left: 5rem;
+  }
+  .photo{
+    width: 25rem;
+  }
+  .grid-container{
+    width: auto;
+  }
+  .goods-sec{
+    width: 50%;
+    text-align: center;
+    padding-left: 5rem;
+  }
+}
+
+@media (max-width:500px){
+  .photo{
+    width: 10rem;
+  }
+  .my-image{
+    width: 10rem;
+  }
 }

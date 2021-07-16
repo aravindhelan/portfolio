@@ -14,10 +14,11 @@
     margin-left: auto;
   }
   
-  .categories p{
+  .nav-link{
     color: white;
     text-decoration: none;
     padding-right: 50px;
+    padding-top: 3%;
   }
 
   h4{
@@ -25,6 +26,6 @@
     margin-top: 1%;
   }
   
-  .categories p:hover{
+  .categories Link:hover{
     color: gray;
   }

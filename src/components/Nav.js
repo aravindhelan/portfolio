@@ -4,21 +4,21 @@ import "../css/Nav.css";
 // import Contact from "./Contact";
 // import Skills from "./Skills";
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { Link ,animateScroll as Scroll} from "react-scroll";
+// import { Link } from "react-router-dom";
 
 
 
 function Nav() {
       return(
         <div className="pro">
-             <div className="navbar">
-             <h4>Portfolio</h4>
+            <div className="navbar">
+              <h4>Portfolio</h4>
               <div className="categories">
-                <Link to="/" style={{ textDecoration: "none"}}><p>Home</p></Link>
-                <Link to="/about" style={{ textDecoration: "none"}}><p>About</p></Link>
-                <Link to="/skills" style={{ textDecoration: "none"}}><p>Skills</p></Link>
-                <Link to="/contact" style={{ textDecoration: "none"}}><p>Contact</p></Link>
-              </div>   
+                <Link activeClass="active" to="About" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">About</Link>
+                <Link activeClass="active" to="Skills" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">Skills</Link>
+                <Link activeClass="active" to="Contact" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">Contact</Link>
+              </div>
             </div>
         </div>
       );  
